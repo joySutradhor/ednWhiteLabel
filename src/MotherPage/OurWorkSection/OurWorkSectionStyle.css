@@ -1,0 +1,141 @@
+.parentCardSlider {
+    position: relative;
+}
+
+.arrow-button {
+    /* background-color: #3498db;  */
+    color: #fff;
+    font-size: 100px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 50%;
+    /* Adjust based on your preference */
+    left: 10px;
+    /* Adjust based on your preference */
+    transform: translateY(-50%);
+    z-index: 50;
+}
+
+.arrow-button2 {
+
+    color: #fff;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0px;
+    margin-left: 60px;
+}
+
+@media (max-width: 767px) {
+
+    .arrow-button {
+        /* background-color: #3498db;  */
+        color: #fff;
+        font-size: 20px;
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        bottom: -30px;
+        z-index: 50;
+    }
+
+    .arrow-button2 {
+
+        color: #fff;
+        font-size: 20px;
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        bottom: -30px;
+        margin-left: 40px;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    .arrow-button {
+        /* background-color: #3498db;  */
+        color: #fff;
+        font-size: 20px;
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        bottom: -40px;
+        z-index: 50;
+    }
+
+    .arrow-button2 {
+
+        color: #fff;
+        font-size: 20px;
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        bottom: -40px;
+        margin-left: 40px;
+    }
+
+}
+
+/* --------------- for 1366px large devices ------------- */
+@media (min-width: 1280px) {
+
+    .arrow-button {
+        color: #fff;
+        font-size: 60px;
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        bottom: 37%;
+        transform: translate(-50%, -50%);
+        left: 10px;
+        z-index: 50;
+    }
+
+    .arrow-button2 {
+
+        color: #fff;
+        font-size: 60px;
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        bottom: 37%;
+        transform: translate(-50%, -50%);
+        right: -50px;
+        z-index: 50;
+    }
+
+}
+
+/* --------------- for 1536px large devices ------------- */
+@media (min-width: 1536px) {
+
+    .arrow-button {
+        color: #fff;
+        font-size: 91px;
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        bottom: 37%;
+        transform: translate(-50%, -50%);
+        left: 10px;
+        z-index: 50;
+    }
+
+    .arrow-button2 {
+
+        color: #fff;
+        font-size: 91px;
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        bottom: 37%;
+        transform: translate(-50%, -50%);
+        right: -80px;
+        z-index: 50;
+    }
+
+}
