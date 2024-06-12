@@ -9,7 +9,7 @@ const HeroContentSection = () => {
                     <img className="heroContentImg " src="https://res.cloudinary.com/dshn2s0tc/image/upload/v1714740508/whiteLebel/heroImg_s5ykge.png" alt="HeroContentImg" />
                 </div>
                 <div>
-                    <div className="2xl:pr-[100px] xl:pr-[50px] lg:pr-[40px]">
+                    <div className="2xl:pr-[100px] xl:pr-[50px] lg:pr-[30px] md:pr-[30px] px-[20px] md:px-0 ">
                         <h2 className="titleHeading relative">White-Label Web Development Services for
                             <span className="relative z-20"> Creative Agencies</span>
                             <span className="creativeLine"></span>

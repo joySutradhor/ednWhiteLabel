@@ -17,7 +17,7 @@ const FaqSection = () => {
         <div className="sectionGap">
             <div>
                 <h2 className="titleHeading text-center">FAQ</h2>
-                <p className="commonPara 2xl:px-[20%] xl:px-[15%] text-center">Have some questions about our white-label development services and how we collaborate with other agencies? Here's a comprehensive list of questions we get asked often.</p>
+                <p className="commonPara 2xl:px-[20%] xl:px-[15%] lg:px-[15%] md:px-[5%] px-[3%] text-center">Have some questions about our white-label development services and how we collaborate with other agencies? Here's a comprehensive list of questions we get asked often.</p>
             </div>
             {/* ----------------- accordian section ---------------- */}
             <div className="accordianMainParent">
@@ -33,7 +33,7 @@ const FaqSection = () => {
                     </span>
                 </div>
                 {openAccordion === 1 && (
-                    <div className={`bg-[#F1F0F0] 2xl:px-[50px] 2xl:rounded-[10px] xl:px-[30px] xl:rounded-[5px]`}>
+                    <div className={`bg-[#F1F0F0] 2xl:px-[50px] 2xl:rounded-[10px] xl:px-[30px] xl:rounded-[5px] lg:px-[15px] md:px-[15px] md:rounded-[5px] px-[10px] rounded-[5px] `}>
                        
 
                         <p className='commonPara' >We have been in this industry since 2005 and providing white-label services since 2007 when we founded htmlBurger. To this day, our primary focus has been on delivering web development solutions to agencies. We have completed thousands of projects successfully and currently partner with more than 1000+ agencies worldwide.</p>
@@ -57,7 +57,7 @@ const FaqSection = () => {
                     </span>
                 </div>
                 {openAccordion === 2 && (
-                    <div className={`bg-[#F1F0F0] 2xl:px-[50px] 2xl:rounded-[10px] xl:px-[30px] xl:rounded-[5px]`}>
+                    <div className={`bg-[#F1F0F0] 2xl:px-[50px] 2xl:rounded-[10px] xl:px-[30px] xl:rounded-[5px] lg:px-[15px] md:px-[15px] md:rounded-[5px] px-[10px] rounded-[5px]`}>
                        
 
                         <p className='commonPara' >We have been in this industry since 2005 and providing white-label services since 2007 when we founded htmlBurger. To this day, our primary focus has been on delivering web development solutions to agencies. We have completed thousands of projects successfully and currently partner with more than 1000+ agencies worldwide.</p>
@@ -82,7 +82,7 @@ const FaqSection = () => {
                     </span>
                 </div>
                 {openAccordion === 3 && (
-                    <div className={`bg-[#F1F0F0] 2xl:px-[50px] 2xl:rounded-[10px] xl:px-[30px] xl:rounded-[5px]`}>
+                    <div className={`bg-[#F1F0F0] 2xl:px-[50px] 2xl:rounded-[10px] xl:px-[30px] xl:rounded-[5px] lg:px-[15px] md:px-[15px] md:rounded-[5px] px-[10px] rounded-[5px]`}>
                        
 
                         <p className='commonPara' >We have been in this industry since 2005 and providing white-label services since 2007 when we founded htmlBurger. To this day, our primary focus has been on delivering web development solutions to agencies. We have completed thousands of projects successfully and currently partner with more than 1000+ agencies worldwide.</p>
@@ -105,7 +105,7 @@ const FaqSection = () => {
                     </span>
                 </div>
                 {openAccordion === 4 && (
-                    <div className={`bg-[#F1F0F0] 2xl:px-[50px] 2xl:rounded-[10px] xl:px-[30px] xl:rounded-[5px]`}>
+                    <div className={`bg-[#F1F0F0] 2xl:px-[50px] 2xl:rounded-[10px] xl:px-[30px] xl:rounded-[5px] lg:px-[15px] md:px-[15px] md:rounded-[5px] px-[10px] rounded-[5px]`}>
                        
 
                         <p className='commonPara' >We have been in this industry since 2005 and providing white-label services since 2007 when we founded htmlBurger. To this day, our primary focus has been on delivering web development solutions to agencies. We have completed thousands of projects successfully and currently partner with more than 1000+ agencies worldwide.</p>
@@ -128,7 +128,7 @@ const FaqSection = () => {
                     </span>
                 </div>
                 {openAccordion === 5 && (
-                    <div className={`bg-[#F1F0F0] 2xl:px-[50px] 2xl:rounded-[10px] xl:px-[30px] xl:rounded-[5px]`}>
+                    <div className={`bg-[#F1F0F0] 2xl:px-[50px] 2xl:rounded-[10px] xl:px-[30px] xl:rounded-[5px] lg:px-[15px] md:px-[15px] md:rounded-[5px] px-[10px] rounded-[5px] `}>
                        
 
                         <p className='commonPara' >We have been in this industry since 2005 and providing white-label services since 2007 when we founded htmlBurger. To this day, our primary focus has been on delivering web development solutions to agencies. We have completed thousands of projects successfully and currently partner with more than 1000+ agencies worldwide.</p>
@@ -152,7 +152,7 @@ const FaqSection = () => {
                     </span>
                 </div>
                 {openAccordion === 6 && (
-                    <div className={`bg-[#F1F0F0] 2xl:px-[50px] 2xl:rounded-[10px] xl:px-[30px] xl:rounded-[5px]`}>
+                    <div className={`bg-[#F1F0F0] 2xl:px-[50px] 2xl:rounded-[10px] xl:px-[30px] xl:rounded-[5px] lg:px-[15px] md:px-[15px] md:rounded-[5px] px-[10px] rounded-[5px] `}>
                        
 
                         <p className='commonPara' >We have been in this industry since 2005 and providing white-label services since 2007 when we founded htmlBurger. To this day, our primary focus has been on delivering web development solutions to agencies. We have completed thousands of projects successfully and currently partner with more than 1000+ agencies worldwide.</p>
@@ -175,7 +175,7 @@ const FaqSection = () => {
                     </span>
                 </div>
                 {openAccordion === 7 && (
-                    <div className={`bg-[#F1F0F0] 2xl:px-[50px] 2xl:rounded-[10px] xl:px-[30px] xl:rounded-[5px]`}>
+                    <div className={`bg-[#F1F0F0] 2xl:px-[50px] 2xl:rounded-[10px] xl:px-[30px] xl:rounded-[5px] lg:px-[15px] md:px-[15px] md:rounded-[5px] px-[10px] rounded-[5px] `}>
                        
 
                         <p className='commonPara' >We have been in this industry since 2005 and providing white-label services since 2007 when we founded htmlBurger. To this day, our primary focus has been on delivering web development solutions to agencies. We have completed thousands of projects successfully and currently partner with more than 1000+ agencies worldwide.</p>
@@ -198,7 +198,7 @@ const FaqSection = () => {
                     </span>
                 </div>
                 {openAccordion === 8 && (
-                    <div className={`bg-[#F1F0F0] 2xl:px-[50px] 2xl:rounded-[10px] xl:px-[30px] xl:rounded-[5px]`}>
+                    <div className={`bg-[#F1F0F0] 2xl:px-[50px] 2xl:rounded-[10px] xl:px-[30px] xl:rounded-[5px] lg:px-[15px] md:px-[15px] md:rounded-[5px] px-[10px] rounded-[5px] `}>
                        
 
                         <p className='commonPara' >We have been in this industry since 2005 and providing white-label services since 2007 when we founded htmlBurger. To this day, our primary focus has been on delivering web development solutions to agencies. We have completed thousands of projects successfully and currently partner with more than 1000+ agencies worldwide.</p>
@@ -221,7 +221,7 @@ const FaqSection = () => {
                     </span>
                 </div>
                 {openAccordion === 9 && (
-                    <div className={`bg-[#F1F0F0] 2xl:px-[50px] 2xl:rounded-[10px] xl:px-[30px] xl:rounded-[5px]`}>
+                    <div className={`bg-[#F1F0F0] 2xl:px-[50px] 2xl:rounded-[10px] xl:px-[30px] xl:rounded-[5px] lg:px-[15px] md:px-[15px] md:rounded-[5px] px-[10px] rounded-[5px] `}>
                        
 
                         <p className='commonPara' >We have been in this industry since 2005 and providing white-label services since 2007 when we founded htmlBurger. To this day, our primary focus has been on delivering web development solutions to agencies. We have completed thousands of projects successfully and currently partner with more than 1000+ agencies worldwide.</p>
@@ -244,7 +244,7 @@ const FaqSection = () => {
                     </span>
                 </div>
                 {openAccordion === 10 && (
-                    <div className={`bg-[#F1F0F0] 2xl:px-[50px] 2xl:rounded-[10px] xl:px-[30px] xl:rounded-[5px]`}>
+                    <div className={`bg-[#F1F0F0] 2xl:px-[50px] 2xl:rounded-[10px] xl:px-[30px] xl:rounded-[5px] lg:px-[15px] md:px-[15px] md:rounded-[5px] px-[10px] rounded-[5px] `}>
                        
 
                         <p className='commonPara' >We have been in this industry since 2005 and providing white-label services since 2007 when we founded htmlBurger. To this day, our primary focus has been on delivering web development solutions to agencies. We have completed thousands of projects successfully and currently partner with more than 1000+ agencies worldwide.</p>
@@ -267,7 +267,7 @@ const FaqSection = () => {
                     </span>
                 </div>
                 {openAccordion === 11 && (
-                    <div className={`bg-[#F1F0F0] 2xl:px-[50px] 2xl:rounded-[10px] xl:px-[30px] xl:rounded-[5px]`}>
+                    <div className={`bg-[#F1F0F0] 2xl:px-[50px] 2xl:rounded-[10px] xl:px-[30px] xl:rounded-[5px] lg:px-[15px] md:px-[15px] md:rounded-[5px] px-[10px] rounded-[5px] `}>
                        
 
                         <p className='commonPara' >We have been in this industry since 2005 and providing white-label services since 2007 when we founded htmlBurger. To this day, our primary focus has been on delivering web development solutions to agencies. We have completed thousands of projects successfully and currently partner with more than 1000+ agencies worldwide.</p>
@@ -290,7 +290,7 @@ const FaqSection = () => {
                     </span>
                 </div>
                 {openAccordion === 12 && (
-                    <div className={`bg-[#F1F0F0] 2xl:px-[50px] 2xl:rounded-[10px] xl:px-[30px] xl:rounded-[5px]`}>
+                    <div className={`bg-[#F1F0F0] 2xl:px-[50px] 2xl:rounded-[10px] xl:px-[30px] xl:rounded-[5px] lg:px-[15px] md:px-[15px] md:rounded-[5px] px-[10px] rounded-[5px] `}>
                        
 
                         <p className='commonPara' >We have been in this industry since 2005 and providing white-label services since 2007 when we founded htmlBurger. To this day, our primary focus has been on delivering web development solutions to agencies. We have completed thousands of projects successfully and currently partner with more than 1000+ agencies worldwide.</p>
@@ -313,7 +313,7 @@ const FaqSection = () => {
                     </span>
                 </div>
                 {openAccordion === 13 && (
-                    <div className={`bg-[#F1F0F0] 2xl:px-[50px] 2xl:rounded-[10px] xl:px-[30px] xl:rounded-[5px]`}>
+                    <div className={`bg-[#F1F0F0] 2xl:px-[50px] 2xl:rounded-[10px] xl:px-[30px] xl:rounded-[5px] lg:px-[15px] md:px-[15px] md:rounded-[5px] px-[10px] rounded-[5px] `}>
                        
 
                         <p className='commonPara' >We have been in this industry since 2005 and providing white-label services since 2007 when we founded htmlBurger. To this day, our primary focus has been on delivering web development solutions to agencies. We have completed thousands of projects successfully and currently partner with more than 1000+ agencies worldwide.</p>
@@ -336,7 +336,7 @@ const FaqSection = () => {
                     </span>
                 </div>
                 {openAccordion === 14 && (
-                    <div className={`bg-[#F1F0F0] 2xl:px-[50px] 2xl:rounded-[10px] xl:px-[30px] xl:rounded-[5px]`}>
+                    <div className={`bg-[#F1F0F0] 2xl:px-[50px] 2xl:rounded-[10px] xl:px-[30px] xl:rounded-[5px] lg:px-[15px] md:px-[15px] md:rounded-[5px] px-[10px] rounded-[5px] `}>
                        
 
                         <p className='commonPara' >We have been in this industry since 2005 and providing white-label services since 2007 when we founded htmlBurger. To this day, our primary focus has been on delivering web development solutions to agencies. We have completed thousands of projects successfully and currently partner with more than 1000+ agencies worldwide.</p>

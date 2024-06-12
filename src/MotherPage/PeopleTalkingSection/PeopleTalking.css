@@ -1,0 +1,63 @@
+.peopleTalkingLine {
+    @apply 
+    2xl:bottom-[70px] 2xl:left-[535px] 2xl:w-[240px] 2xl:h-[7px]
+    xl:bottom-[50px] xl:left-[455px] xl:w-[140px] xl:h-[7px]
+    lg:bottom-[35px] lg:left-[335px] lg:w-[115px] lg:h-[5px]
+    md:bottom-[25px] md:left-[225px] md:w-[100px] md:h-[5px]
+    bottom-[25px] left-[50px] w-[90px] h-[5px]
+    
+    
+    absolute z-10  bg-red-700
+}
+
+.CustomPreArrowSmallDevices {
+    color: #fff;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 35%;
+    transform: translate(-50%, -50%);
+    right: -11%;
+    z-index: 50;
+}
+
+.CustomNextArrowSmallDevices2 {
+    color: #fff;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 35%;
+    transform: translate(-50%, -50%);
+    left: -3%;
+    z-index: 50;
+}
+
+
+@media screen and (min-width: 700px) {
+
+    .CustomPreArrowSmallDevices {
+        color: #fff;
+        font-size: 35px;
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        left: 37%;
+        bottom: -26%;
+        z-index: 50;
+    }
+
+    .CustomNextArrowSmallDevices2 {
+        color: #fff;
+        font-size: 35px;
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        bottom: -26%;
+        left: 13%;
+        transform: translate(-50%, -50%);
+        z-index: 50;
+    }
+}

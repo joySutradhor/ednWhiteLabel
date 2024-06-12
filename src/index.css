@@ -12,19 +12,25 @@
   /* =========================== Common Mother Sytles  ========================= */
 
   .sectionGap {
-    @apply 2xl:pt-[200px] 2xl:px-[100px] xl:pt-[100px] xl:px-[50px]
+    @apply 2xl:pt-[200px] 2xl:px-[100px] xl:pt-[100px] xl:px-[50px] lg:pt-[80px] lg:px-[30px] md:pt-[60px] md:px-[30px] px-[30px] pt-[50px]
   }
 
   .titleHeading {
-    @apply 2xl:text-[80px] 2xl:leading-[96px] 2xl:pb-[35px] xl:text-[40px] xl:leading-[50px] xl:pb-[25px]
+    @apply 2xl:text-[80px] 2xl:leading-[96px] 2xl:pb-[35px] xl:text-[40px] xl:leading-[50px] xl:pb-[25px] md:text-[30px] md:leading-[30px] md:pb-[20px] 
+    lg:text-[35px] lg:leading-[40px] lg:pb-[20px]
+    text-[25px] pb-[20px] leading-[27px] 
+
     /* ------ common sytles ---- */
     font-title font-bold
   }
 
   .commonPara {
     @apply 2xl:text-[20px] 2xl:leading-[24px] 2xl:pb-[35px] xl:text-[18px] xl:leading-[22px] xl:pb-[25px]
+    lg:text-[15px] lg:leading-[20px] lg:pb-[20px]
+    md:text-[15px] md:leading-[20px] md:pb-[20px] 
+    text-[15px] leading-[20px] pb-[20px] 
     /* ------- common styles -------- */
-    font-paragraph font-normal
+    font-paragraph font-normal 
   }
 
   /* =========================== Common Mother Sytles End ========================= */
@@ -32,9 +38,13 @@
 
   /* =========================== Navbar styles here ========================= */
   .headerLogo {
-    @apply 2xl:w-[205px] 2xl:h-[52px] xl:w-[150px] xl:h-auto lg:w-[100px]
+    @apply 2xl:w-[205px] 2xl:h-[52px] xl:w-[150px] xl:h-auto lg:w-[100px] md:w-[140px] w-[100px]
     /* -------- common sytles here ---------- */
     object-cover
+  }
+
+  .headerLogotop{
+    @apply w-[150px] p-[15px]
   }
 
   .navbarParent {
@@ -48,36 +58,49 @@
   }
 
   .herobtnParent {
-    @apply 2xl:space-x-[15px] xl:space-x-[10px] lg:space-x-[10px]
+    @apply 2xl:space-x-[15px] xl:space-x-[10px] lg:space-x-[10px] md:space-x-[10px] space-x-[20px] px-[20px] pb-[30px] lg:pb-0 lg:px-0
   }
 
   .headerBtnText {
-    @apply 2xl:py-[17px] 2xl:px-[19px] 2xl:text-[20px] 2xl:leading-[20px] 2xl:rounded-[10px] xl:py-[12px] xl:px-[14px] xl:text-[18px] xl:leading-[18px] xl:rounded-[5px] lg:py-[10px] lg:px-[12px] lg:text-[16px] lg:leading-[16px] lg:rounded-[5px]
+    @apply 2xl:py-[17px] 2xl:px-[19px] 2xl:text-[20px] 2xl:leading-[20px] 2xl:rounded-[10px] 
+    xl:py-[12px] xl:px-[14px] xl:text-[18px] xl:leading-[18px] xl:rounded-[5px] 
+    lg:py-[10px] lg:px-[12px] lg:text-[16px] lg:leading-[16px] lg:rounded-[5px]
+    md:py-[8px] md:px-[20px] md:leading-[18px] md:rounded-[2px]
+    py-[8px] px-[20px] leading-[18px] rounded-[2px]
     /* --------- common styles --------- */
     font-title font-bold cursor-pointer
   }
 
   .headerBtnTextWhite {
-    @apply 2xl:py-[15px] 2xl:px-[19px] 2xl:text-[20px] 2xl:leading-[20px] 2xl:rounded-[10px] 2xl:border-[2px] xl:py-[10px] xl:px-[14px] xl:text-[18px] xl:leading-[18px] xl:rounded-[5px] xl:border-[1px] lg:py-[8px] lg:px-[12px] lg:text-[16px] lg:leading-[16px] lg:rounded-[5px] lg:border-[1px]
+    @apply 2xl:py-[15px] 2xl:px-[19px] 2xl:text-[20px] 2xl:leading-[20px] 2xl:rounded-[10px] 2xl:border-[2px] 
+
+    xl:py-[10px] xl:px-[14px] xl:text-[18px] xl:leading-[18px] xl:rounded-[5px] xl:border-[1px] lg:py-[8px] 
+
+    lg:px-[12px] lg:text-[16px] lg:leading-[16px] lg:rounded-[5px] lg:border-[1px]
+    md:py-[6px] md:px-[15px] md:leading-[18px] md:rounded-[2px] md:border-[1px]
+    py-[6px] px-[15px] leading-[18px] rounded-[2px] border-[1px]
     /* --------- common styles --------- */
     font-title font-bold cursor-pointer border-black
   }
 
   .navbarLeftRightSpace {
     @apply 2xl:py-[50px] 2xl:px-[100px] xl:py-[40px] xl:px-[50px] lg:py-[20px] lg:px-[30px]
+     md:px-[30px] md:py-[20px] px-[20px] py-[20px]
     /* ------ common sytles here ---------- */
   }
 
   /* ========================== hero content styles ============= */
 
   .heroContainerbtnParent {
-    @apply 2xl:space-x-[35px] xl:space-x-[10px]
+    @apply 2xl:space-x-[35px] xl:space-x-[10px] lg:space-x-[10px] md:space-x-[10px] space-x-[10px]
   }
 
   .heroContentParent {
     @apply 2xl:grid-cols-2 2xl:gap-x-[70px] 
     xl:grid-cols-2 xl:gap-x-[50px]
     lg:grid-cols-2 lg:gap-x-[40px]
+    md:grid-cols-2 md:gap-x-[20px]
+    grid grid-cols-1 space-y-[20px] md:space-y-0
     /* ---------- common sytles here --------- */
     grid justify-between items-center
   }
@@ -86,12 +109,18 @@
     @apply 2xl:w-full 2xl:h-[812px] 2xl:rounded-[10px] 
     xl:w-full xl:h-[512px] xl:rounded-[5px]
     lg:w-full lg:h-[380px] lg:rounded-[5px] 
+    md:w-full md:h-[350px] md:rounded-[5px]
     /* -------- common sytles ----- */
     object-cover
   }
 
   .creativeLine {
-    @apply 2xl:bottom-[55px] 2xl:left-[128px] 2xl:w-[670px] 2xl:h-[7px] xl:bottom-[35px] xl:right-[55px] xl:w-[320px] xl:h-[5px]
+    @apply 2xl:bottom-[55px] 2xl:left-[128px] 2xl:w-[670px] 2xl:h-[7px] 
+    xl:bottom-[35px] xl:right-[55px] xl:w-[330px] xl:h-[5px]
+    lg:bottom-[28px] lg:left-[0px] lg:w-[300px] lg:h-[5px]
+    md:bottom-[23px] md:left-[0px] md:w-[300px] md:h-[5px]
+    bottom-[26px] left-[0px] w-[210px] h-[5px]
+
     /* -------- common sytles ----- */
     bg-red-700 absolute z-10
   }
@@ -99,11 +128,14 @@
 
   /* ======================== About Us styles Start Here ======================= */
   .aboutUsParent {
-    @apply 2xl:grid 2xl:grid-cols-2 2xl:gap-x-[70px] xl:grid xl:grid-cols-2 xl:gap-x-[50px]
+    @apply 2xl:grid 2xl:grid-cols-2 2xl:gap-x-[70px] xl:grid xl:grid-cols-2 xl:gap-x-[50px] 
+    lg:grid lg:grid-cols-2 lg:gap-x-[40px]
+    md:grid md:grid-cols-2 md:gap-x-[30px]
+    space-y-[20px] md:space-y-0
   }
 
   .aboutUsImg {
-    @apply 2xl:rounded-[10px] 2xl:h-[423.18px] xl:rounded-[5px] xl:h-[385px]
+    @apply 2xl:rounded-[10px] 2xl:h-[423.18px] xl:rounded-[5px] xl:h-[385px] lg:h-[336px] lg:rounded-[5px] md:h-[300px] md:rounded-[5px]
     /* -------- common styles here-------- */
     object-cover
   }
@@ -112,35 +144,54 @@
   /* ====================== why choose us section styles sections =========================== */
   .whyChooseUsParent {
     @apply 2xl:grid 2xl:grid-cols-2 2xl:gap-x-[70px] xl:grid xl:grid-cols-2 xl:gap-x-[50px]
+    lg:grid lg:grid-cols-2 lg:space-x-[40px]
+    md:grid md:grid-cols-1 
+    grid grid-cols-1
   }
 
   .iconsParentWhyUsSection {
-    @apply 2xl:h-[73px] xl:h-[45px]
+    @apply 2xl:h-[73px] xl:h-[45px] lg:h-[35px] md:h-[35px] h-[30px]
     /* ------common styles ----------- */
     bg-[#F1F0F0] rounded-full
   }
 
   .innerParentWhyUs {
-    @apply 2xl:h-[67px] 2xl:w-[67px] 2xl:py-[3px] 2xl:pl-[3px] xl:h-[45px] xl:w-[45px] xl:py-[2px] xl:pl-[2px]
+    @apply 2xl:h-[67px] 2xl:w-[67px] 2xl:py-[3px] 2xl:pl-[3px] 
+    xl:h-[45px] xl:w-[45px] xl:py-[2px] xl:pl-[2px]
+    lg:h-[35px] lg:w-[35px] lg:py-[2px] lg:pl-[2px]
+    md:h-[35px] md:w-[35px] md:py-[2px] md:pl-[0px]
+    h-[30px] w-[30px] py-[2px] pl-[0px]
     /* ------common styles ----------- */
     bg-[#E12026] rounded-full flex justify-center items-center
   }
 
   .soWhyUsLine {
-    @apply 2xl:bottom-[55px] 2xl:left-0 2xl:w-[440px] 2xl:h-[7px] xl:bottom-[35px] xl:left-0 xl:w-[220px] xl:h-[5px]
+    @apply 2xl:bottom-[55px] 2xl:left-0 2xl:w-[440px] 2xl:h-[7px] 
+    xl:bottom-[35px] xl:left-0 xl:w-[220px] xl:h-[5px]
+    lg:bottom-[28px] lg:left-0 lg:w-[200px] lg:h-[5px]
+    md:bottom-[25px] md:left-0 md:w-[170px] md:h-[5px]
+    bottom-[25px] left-0 w-[140px] h-[5px]
+    
     /* ------common styles ----------- */
     bg-red-700 absolute z-10
   }
 
 
   .webHealthText {
-    @apply 2xl:text-[20px] 2xl:leading-[20px] 2xl:px-[15px] xl:text-[18px] xl:leading-[18px] xl:px-[15px]
+    @apply 2xl:text-[20px] 2xl:leading-[20px] 2xl:px-[15px] 
+    xl:text-[18px] xl:leading-[18px] xl:px-[15px]
+    lg:text-[15px] lg:px-[15px]
+    md:text-[14px] md:px-[15px]
+    text-[14px] px-[10px]
     /* ------common styles ----------- */
     font-title font-medium
   }
 
   .iconsSingleParent {
     @apply 2xl:h-[73px] 2xl:w-[73px] xl:h-[45px] xl:w-[45px]
+    lg:h-[35px] lg:w-[35px]
+    md:h-[35px] md:w-[35px]
+    h-[30px] w-[30px]
     /* ------common styles ----------- */
     rounded-full bg-[#F1F0F0] flex justify-center items-center
   }
@@ -148,7 +199,7 @@
   /* ====================== our work section styles sections =========================== */
 
   .ourWorkImgOne {
-    @apply 2xl:h-[690.98px] xl:h-[450px] z-10
+    @apply 2xl:h-[690.98px] xl:h-[450px] z-10 lg:h-[400px] md:h-[350px] h-[350px]
   }
 
   .sliderArrowIcon {
@@ -164,7 +215,11 @@
   }
 
   .hoverParent {
-    @apply 2xl:pl-[35px] 2xl:pr-[77px] 2xl:pb-[27px] xl:pl-[20px] xl:pr-[44px] xl:pb-[20px]
+    @apply 2xl:pl-[35px] 2xl:pr-[77px] 2xl:pb-[27px] 
+    xl:pl-[20px] xl:pr-[44px] xl:pb-[20px]
+    lg:pl-[15px] lg:pr-[35px] lg:pb-[15px]
+    md:pl-[15px] md:pr-[35px] md:pb-[15px]
+    pl-[15px] pr-[35px] pb-[15px]
     /* ----------- common styles --------- */
     absolute bottom-0 w-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-white flex justify-between items-center
   }
@@ -174,53 +229,76 @@
 
   /* ====================== what We Do  section styles sections =========================== */
 
+
+  .whatWeDoLine {
+    @apply 2xl:bottom-[55px] 2xl:right-[510px] 2xl:w-[270px] 2xl:h-[7px]
+    
+    xl:bottom-[37px] xl:right-[440px] xl:w-[150px] xl:h-[5px]
+    lg:bottom-[28px] lg:right-[300px] lg:w-[130px] lg:h-[5px]
+    md:bottom-[25px] md:right-[200px] md:w-[120px] md:h-[5px]
+    bottom-[25px] right-[30px] w-[100px] h-[5px]
+    
+    absolute z-10  bg-red-700
+  }
   .whatWeDoHeadingParent {
-    @apply 2xl:flex 2xl:place-content-center xl:flex xl:place-content-center
+    @apply 2xl:flex 2xl:place-content-center xl:flex xl:place-content-center lg:flex lg:place-content-center
     /* -------------- common styles ----------- */
     text-center
   }
 
   .whatWeDoPara {
-    @apply 2xl:px-[20%] xl:px-[15%] flex justify-center
+    @apply 2xl:px-[20%] xl:px-[15%] lg:px-[15%] md:px-[10%] px-[2%] flex justify-center
   }
 
   .whatWeDoMainParent {
-    @apply 2xl:py-[50px] bg-[#f1f0f0] xl:py-[40px]
+    @apply 2xl:py-[50px] bg-[#f1f0f0] xl:py-[40px] lg:py-[30px] md:py-[20px] py-[20px]
   }
 
   /* ----------- card styles ------------ */
   .listItemParentOne {
-    @apply 2xl:space-x-[15px] xl:space-x-[10px]
+    @apply 2xl:space-x-[15px] xl:space-x-[10px]  lg:space-x-[5px] md:space-x-[5px] space-x-[5px]
     /* --------- common styles ---------- */
     flex items-center
   }
 
   .listItemParent {
-    @apply 2xl:space-x-[15px] 2xl:pt-[26px] xl:space-x-[10px] xl:pt-[20px]
+    @apply 2xl:space-x-[15px] 2xl:pt-[26px] xl:space-x-[10px] xl:pt-[20px] lg:space-x-[5px] lg:pt-[5px] md:space-x-[5px] md:pt-[5px] space-x-[5px] pt-[5px]
     /* --------- common styles ---------- */
     flex items-center
   }
 
   .listBullet {
-    @apply 2xl:h-[22px] 2xl:w-[22px] xl:h-[15px] xl:w-[15px]
+    @apply 2xl:h-[22px] 2xl:w-[22px] xl:h-[15px] xl:w-[15px] lg:h-[15px] lg:w-[15px] md:h-[15px] md:w-[15px] h-[15px] w-[15px]
     /* ----------- common sytles --------- */
     rounded-full bg-[#E12026] flex justify-center items-center text-white
   }
 
   .listItemsTitle {
-    @apply 2xl:text-[35px] 2xl:leading-[35px] 2xl:pb-[35px] xl:text-[20px] xl:leading-[20px] xl:pb-[25px]
+    @apply 2xl:text-[35px] 2xl:leading-[35px] 2xl:pb-[35px]
+     xl:text-[20px] xl:leading-[20px] xl:pb-[25px]
+     lg:text-[18px] lg:pb-[10px]
+     md:text-[17px] md:pb-[10px]
+     text-[18px] pb-[10px]
     /* ----------- common sytles --------- */
     font-title font-semibold
   }
 
   .singleListItem {
     @apply 2xl:text-[20px] 2xl:leading-[24px] xl:text-[16px] xl:leading-[20px]
+    lg:text-[13px] lg:leading-[20px]
+    md:text-[13px]
+    text-[14px]
     /* ----------- common sytles --------- */
     font-paragraph font-semibold
   }
 
   .contentCardMainParent {
-    @apply 2xl:grid 2xl:grid-cols-4 2xl:justify-between 2xl:gap-x-[80px] 2xl:px-[100px] xl:grid xl:grid-cols-4 xl:justify-between xl:gap-x-[35px] xl:px-[50px]
+    @apply 2xl:grid 2xl:grid-cols-4 2xl:justify-between 2xl:gap-x-[80px] 2xl:px-[100px] 
+    xl:grid xl:grid-cols-4 xl:justify-between xl:gap-x-[35px] xl:px-[50px]
+    lg:grid lg:grid-cols-4 lg:justify-between lg:gap-x-[40px] lg:px-[30px]
+    md:grid md:grid-cols-2 md:justify-between md:gap-x-[30px] md:px-[30px] md:gap-y-[30px] lg:space-y-0
+    grid grid-cols-1  px-[30px] gap-y-[30px] 
+    
   }
 
   /* ====================== our client section styles sections =========================== */
@@ -232,29 +310,35 @@
 
   .OurClinetPara {
     @apply 2xl:px-[18%] 2xl:pb-[50px] xl:px-[15%] xl:pb-[40px]
+    lg:px-[10%] lg:pb-[30px]
+    md:px-[10%] md:pb-[20px]
     /* ----- common styles here ----------- */
     flex justify-center font-paragraph font-normal
   }
 
   .ourClientImgParent {
-    @apply 2xl:h-[777px] 2xl:px-[10%] xl:h-[550px] xl:px-[10%]
+    @apply 2xl:h-[777px] 2xl:px-[10%] xl:h-[550px] xl:px-[10%] lg:h-[500px] lg:px-[10%] md:px-[10%] 
   }
 
 
   /* ====================== our client section styles sections =========================== */
 
   .peopleCardParent {
-    @apply 2xl:py-[50px] 2xl:px-[35px] xl:py-[30px] xl:px-[25px]
+    @apply 2xl:py-[50px] 2xl:px-[35px] xl:py-[30px] xl:px-[25px] lg:py-[25px] lg:px-[20px] md:px-[20px] md:py-[20px]  py-[20px] px-[10px]
   }
 
   .PeoplePara {
-    @apply 2xl:text-[25px] 2xl:leading-[35.7px] 2xl:py-[50px] xl:text-[18.5px] xl:leading-[22px] xl:py-[30px]
+    @apply 2xl:text-[25px] 2xl:leading-[35.7px] 2xl:py-[50px] 
+    xl:text-[17.5px] xl:leading-[22px] xl:py-[30px]
+    lg:text-[15px] lg:py-[25px]
+    md:text-[14px] md:py-[20px]
+    text-[15px] py-[15px]
     /* -------- common styles ---------- */
     font-paragraph font-normal
   }
 
   .peopleProfileImg {
-    @apply 2xl:h-[51px] 2xl:w-[51px] xl:h-[40px] xl:w-[40px]
+    @apply 2xl:h-[51px] 2xl:w-[51px] xl:h-[40px] xl:w-[40px] lg:h-[35px] lg:w-[35px] md:h-[30px] md:w-[30px] h-[30px] w-[30px]
     /* ---------- common sytles --------- */
 
   }
@@ -270,25 +354,37 @@
 
   .riskFreeHeading {
     @apply 2xl:text-[80px] 2xl:leading-[96px] xl:text-[40px] xl:leading-[50px]
+    lg:text-[35px] lg:leading-[45px]
+    md:text-[30px] 
+    text-[25px]
     /* ---------- common sytles --------- */
     font-title font-bold text-white
   }
 
   .riskFreePara {
-    @apply 2xl:text-[20px] 2xl:leading-[24px] 2xl:py-[35px] xl:text-[18px] xl:leading-[22px] xl:py-[25px]
+    @apply 2xl:text-[20px] 2xl:leading-[24px] 2xl:py-[35px] 
+    xl:text-[18px] xl:leading-[22px] xl:py-[25px]
+    lg:text-[15px] lg:py-[20px]
+    md:text-[15px] md:py-[20px]
+    text-[14px] py-[20px]
     /* ------------- common styeles --------- */
     font-paragraph font-normal text-white
   }
 
 
   .riskFreeBtn {
-    @apply 2xl:text-[20px] 2xl:leading-[20px] 2xl:px-[18px] 2xl:py-[17px] 2xl:rounded-[10px] xl:text-[18px] xl:leading-[20px] xl:px-[15px] xl:py-[14px] xl:rounded-[5px]
+    @apply 2xl:text-[20px] 2xl:leading-[20px] 2xl:px-[18px] 2xl:py-[17px] 2xl:rounded-[10px] 
+    xl:text-[18px] xl:leading-[20px] xl:px-[15px] xl:py-[14px] xl:rounded-[5px]
+    lg:text-[18px] lg:leading-[20px] lg:px-[15px] lg:py-[14px] lg:rounded-[5px]
+    md:text-[16px] md:leading-[20px] md:px-[15px] md:py-[12px] md:rounded-[5px]
+    text-[15px] leading-[20px] px-[15px] py-[8px] rounded-[2px]
+    
     /* ------------- common sytles --------- */
     font-title font-bold bg-white
   }
 
   .riskFreeImgParent {
-    @apply 2xl:h-[278px] 2xl:w-[240px] xl:h-[200px]
+    @apply 2xl:h-[278px] 2xl:w-[240px] xl:h-[200px] lg:h-[150px] md:h-[180px] h-[150px] py-[20px] md:py-0
   }
 
 
@@ -299,18 +395,24 @@
   }
 
   .engagementPara {
-    @apply 2xl:px-[10%] 2xl:pb-[50px] xl:px-[15%] xl:pb-[40px]
+    @apply 2xl:px-[10%] 2xl:pb-[50px] xl:px-[15%] xl:pb-[40px] lg:px-[15%] 
+    lg:pb-[30px] md:px-[8%] md:pb-[20px]
+    px-[3%] pb-[20px]
   }
 
   /* ---------- cards styles ----------- */
   .engagementIconParent {
-    @apply 2xl:h-[86px] 2xl:w-[86px] xl:h-[40px] xl:w-[40px]
+    @apply 2xl:h-[86px] 2xl:w-[86px] xl:h-[40px] xl:w-[40px] lg:h-[35px] lg:w-[35px] md:h-[30px] md:w-[30px] h-[30px] w-[30px]
     /* --------------- common styles ------------ */
     rounded-full bg-[#E12026] flex justify-center items-center text-white
   }
 
   .engagementCardHeading {
-    @apply 2xl:text-[35px] 2xl:leading-[35px] 2xl:pb-[15px] 2xl:pt-[35.5px] xl:text-[25px] xl:leading-[25px] xl:pt-[25px] xl:pb-[10px]
+    @apply 2xl:text-[35px] 2xl:leading-[35px] 2xl:pb-[15px] 2xl:pt-[35.5px] 
+    xl:text-[25px] xl:leading-[25px] xl:pt-[25px] xl:pb-[10px]
+    lg:text-[22px] lg:leading-[23px] lg:pt-[20px] lg:pb-[10px]
+    md:text-[20x] md:leading-[20px] md:pt-[10px] md:pb-[10px]
+    text-[18x] leading-[20px] pt-[10px] pb-[5px]
     /* --------------- common styles ------------ */
     font-title font-semibold text-left
   }
@@ -322,54 +424,68 @@
   /* ====================== collaboration section styles sections =========================== */
 
   .collaborationBtn {
-    @apply 2xl:py-[17px] 2xl:px-[27px] 2xl:text-[20px] 2xl:leading-[20px] 2xl:rounded-[10px] xl:px-[22px] xl:py-[12px] xl:text-[18px] xl:leading-[18px] xl:rounded-[5px]
+    @apply 2xl:py-[17px] 2xl:px-[27px] 2xl:text-[20px] 2xl:leading-[20px] 2xl:rounded-[10px] 
+    xl:px-[22px] xl:py-[12px] xl:text-[18px] xl:leading-[18px] xl:rounded-[5px]
+    lg:px-[25px] lg:py-[10px] lg:text-[16px] lg:leading-[18px] lg:rounded-[5px]
+    md:px-[25px] md:py-[8px] md:text-[16px] md:leading-[18px] md:rounded-[5px]
+    px-[25px] py-[8px] text-[15px] leading-[18px] rounded-[5px] mt-[30px] md:mt-0
+
     /* ----------- common styles ------------- */
     text-white font-title font-bold bg-[#E12026]
   }
 
   .collaborationSingleCardParent {
-    @apply 2xl:h-[183.22px] 2xl:w-[183.22px] 2xl:rounded-[10px] xl:h-[100px] xl:w-[100px] xl:rounded-[5px]
+    @apply 2xl:h-[183.22px] 2xl:w-[183.22px] 2xl:rounded-[10px] 
+    xl:h-[100px] xl:w-[100px] xl:rounded-[5px]
+    lg:h-[80px] lg:w-[80px] lg:rounded-[5px]
+    md:h-[70px] md:w-[70px] md:rounded-[5px]
+    h-[70px] w-[80px] rounded-[5px]
     /* ----------- common styles ------------- */
     bg-white flex justify-center items-center
   }
 
   .collaborationImgLogoOne {
-    @apply 2xl:h-[91.63px] 2xl:w-[103.62px] xl:h-[50px]
+    @apply 2xl:h-[91.63px] 2xl:w-[103.62px] xl:h-[50px] lg:h-[40px] md:h-[40px] h-[40px]
   }
 
   .collaborationImgLogoTwo {
-    @apply 2xl:h-[92.3px] 2xl:w-[99.8px] xl:h-[50px]
+    @apply 2xl:h-[92.3px] 2xl:w-[99.8px] xl:h-[50px] lg:h-[40px] md:h-[40px] h-[40px]
   }
 
   .collaborationImgLogoThree {
-    @apply 2xl:h-[91.65px] 2xl:w-[61.4px] xl:h-[50px]
+    @apply 2xl:h-[91.65px] 2xl:w-[61.4px] xl:h-[50px] lg:h-[40px] md:h-[40px] h-[40px]
   }
 
   .collaborationImgLogoFour {
-    @apply 2xl:h-[91.6px] 2xl:w-[91.69px] xl:h-[50px]
+    @apply 2xl:h-[91.6px] 2xl:w-[91.69px] xl:h-[50px] lg:h-[40px] md:h-[40px] h-[40px]
   }
 
   .collaborationImgLogoFive {
-    @apply 2xl:h-[91.66px] 2xl:w-[93.61px] xl:h-[50px]
+    @apply 2xl:h-[91.66px] 2xl:w-[93.61px] xl:h-[50px] lg:h-[40px] md:h-[40px] h-[40px]
   }
 
   .collaborationImgLogoSix {
-    @apply 2xl:h-[91.62px] 2xl:w-[91.72px] xl:h-[50px]
+    @apply 2xl:h-[91.62px] 2xl:w-[91.72px] xl:h-[50px] lg:h-[40px] md:h-[40px] h-[40px]
   }
 
   /* ====================== Faq section styles sections =========================== */
   .accordianMainParent {
-    @apply 2xl:pb-[15px] xl:pb-[10px]
+    @apply 2xl:pb-[15px] xl:pb-[10px] lg:pb-[10px] md:pb-[10px] pb-[10px]
   }
 
   .accordianSingleParent {
-    @apply 2xl:px-[50px] 2xl:pt-[50px] 2xl:pb-[35px] 2xl:rounded-[10px] xl:px-[30px] xl:pt-[30px] xl:pb-[15px] xl:rounded-[5px]
+    @apply 2xl:px-[50px] 2xl:pt-[50px] 2xl:pb-[35px] 2xl:rounded-[10px]
+     xl:px-[30px] xl:pt-[30px] xl:pb-[15px] xl:rounded-[5px]
+     lg:px-[15px] lg:pt-[20px] lg:pb-[20px] lg:rounded-[5px]
+     md:px-[15px] md:pt-[20px] md:pb-[20px] md:rounded-[5px]
+     px-[10px] pt-[10px] pb-[10px] rounded-[5px]
     /* -------- common styles here ----------  */
     bg-[#F1F0F0] flex justify-between items-center
   }
 
   .accordianHeadText {
     @apply 2xl:text-[35px] 2xl:leading-[42px] xl:text-[20px] xl:leading-[27px]
+    lg:text-[15px] md:text-[16px] text-[16px]
     /* ------------ common styles ------------  */
     font-title font-semibold
   }
@@ -382,7 +498,11 @@
 
 
   .letsGoBtn {
-    @apply 2xl:text-[20px] 2xl:leading-[20px] 2xl:px-[19px] 2xl:py-[17px] 2xl:rounded-[10px] xl:text-[18px] xl:leading-[18px] xl:px-[17px] xl:py-[15px] xl:rounded-[5px]
+    @apply 2xl:text-[20px] 2xl:leading-[20px] 2xl:px-[19px] 2xl:py-[17px] 2xl:rounded-[10px] 
+    xl:text-[18px] xl:leading-[18px] xl:px-[17px] xl:py-[15px] xl:rounded-[5px]
+    lg:text-[16px] lg:leading-[18px] lg:px-[17px] lg:py-[12px] lg:rounded-[5px]
+    md:text-[15px] md:leading-[18px] md:px-[17px] md:py-[10px] md:rounded-[5px]
+    text-[15px] leading-[18px] px-[17px] py-[10px] rounded-[5px]
     /* ------------ common styles ------------  */
     font-title font-bold bg-white text-black
   }
@@ -390,31 +510,37 @@
   /* ====================== Footer section styles sections =========================== */
 
   .footerLogo {
-    @apply 2xl:w-[205px] 2xl:h-[52px] 2xl:pb-[50px] xl:w-[150px] xl:h-auto xl:pb-[40px]
+    @apply 2xl:w-[205px] 2xl:h-[100px] 2xl:pb-[50px] xl:w-[150px] xl:h-auto xl:pb-[40px] lg:h-[60px] 
+    lg:pb-[30px] md:h-[50px] md:pb-[20px] h-[70px] pb-[30px]
     /* -------- common sytles here ---------- */
     object-cover text-center
   }
 
   .footerHeadingText {
-    @apply 2xl:text-[35px] 2xl:leading-[42px] 2xl:pb-[35px] xl:text-[20px] xl:leading-[27px] xl:pb-[20px]
+    @apply 2xl:text-[35px] 2xl:leading-[42px] 2xl:pb-[35px] xl:text-[20px] 
+    xl:leading-[27px] xl:pb-[20px] 
+    lg:text-[18px] lg:pb-[15px] md:text-[15px]
+    text-[16px]
     /* ------------ common styles ------------  */
     font-title font-semibold
   }
 
   .footerPara {
-    @apply 2xl:text-[20px] 2xl:leading-[20px] 2xl:pb-[15px] xl:text-[18px] xl:leading-[18px] xl:pb-[10px]
+    @apply 2xl:text-[20px] 2xl:leading-[20px] 2xl:pb-[15px] xl:text-[18px] xl:leading-[18px] xl:pb-[10px] 
+    lg:text-[14px] lg:pb-[5px] md:text-[13px] md:pb-[5px] text-[14px] pb-[1px]
     /* ------------ common styles ------------  */
     font-paragraph font-medium
   }
 
   .copyrightPara {
-    @apply 2xl:text-[14px] 2xl:leading-[20px] 2xl:pt-[10px] xl:text-[14px] xl:leading-[18px] xl:pt-[10px]
+    @apply 2xl:text-[14px] 2xl:leading-[20px] 2xl:pt-[10px] xl:text-[14px] xl:leading-[18px] 
+    xl:pt-[10px] lg:text-[13px] md:text-[12px] text-[13px]
     /* ------------ common styles ------------  */
     font-paragraph font-normal
   }
 
   .footerDummyBg {
-    @apply 2xl:h-[20px] xl:h-[20px] bg-black w-full
+    @apply 2xl:h-[20px] xl:h-[20px] lg:h-[20px] md:h-[20px] h-[15px] bg-black w-full
   }
 
 }
