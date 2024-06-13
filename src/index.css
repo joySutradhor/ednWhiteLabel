@@ -469,6 +469,160 @@
   }
 
   /* ====================== Faq section styles sections =========================== */
+
+.faqOneLine{
+  @apply absolute 2xl:h-[5px] 2xl:left-0 2xl:w-full  2xl:bottom-[20%] 
+  xl:h-[3px] xl:left-0 xl:w-full xl:bottom-[20%]
+  lg:h-[3px] lg:left-0 lg:w-full lg:bottom-[20%]
+  md:h-[3px] md:left-0 md:w-full md:bottom-[20%]
+  h-[3px] left-0 w-[55%] bottom-[10%]
+  
+  
+  z-20 bg-red-500 bg-opacity-60
+}
+
+.faqTwoLine{
+  @apply absolute 2xl:h-[5px] 2xl:left-0 2xl:w-full  2xl:bottom-[20%] 
+  xl:h-[3px] xl:left-0 xl:w-full xl:bottom-[20%]
+  lg:h-[3px] lg:left-0 lg:w-full lg:bottom-[20%]
+  md:h-[3px] md:left-0 md:w-full md:bottom-[20%]
+  h-[3px] left-0 w-[35%] bottom-[10%]
+  
+  
+  z-20 bg-red-500 bg-opacity-60
+}
+
+.faqThreeLine{
+  @apply absolute 2xl:h-[5px] 2xl:left-0 2xl:w-full  2xl:bottom-[20%] 
+  xl:h-[3px] xl:left-0 xl:w-full xl:bottom-[20%]
+  lg:h-[3px] lg:left-0 lg:w-full lg:bottom-[20%]
+  md:h-[3px] md:left-0 md:w-full md:bottom-[20%]
+  h-[3px] left-0 w-[15%] bottom-[10%]
+  
+  
+  z-20 bg-red-500 bg-opacity-60
+}
+
+.faqFourLine{
+  @apply absolute 2xl:h-[5px] 2xl:left-0 2xl:w-full  2xl:bottom-[20%] 
+  xl:h-[3px] xl:left-0 xl:w-full xl:bottom-[20%]
+  lg:h-[3px] lg:left-0 lg:w-full lg:bottom-[20%]
+  md:h-[3px] md:left-0 md:w-full md:bottom-[20%]
+  h-[3px] left-0 w-[100%] bottom-[18%]
+  
+  
+  z-20 bg-red-500 bg-opacity-60
+}
+
+.faqFiveLine{
+  @apply absolute 2xl:h-[5px] 2xl:left-0 2xl:w-full  2xl:bottom-[20%] 
+  xl:h-[3px] xl:left-0 xl:w-full xl:bottom-[20%]
+  lg:h-[3px] lg:left-0 lg:w-full lg:bottom-[20%]
+  md:h-[3px] md:left-0 md:w-full md:bottom-[20%]
+  h-[3px] left-0 w-[50%] bottom-[10%]
+  
+  
+  z-20 bg-red-500 bg-opacity-60
+}
+
+.faqSixLine{
+  @apply absolute 2xl:h-[5px] 2xl:left-0 2xl:w-full  2xl:bottom-[20%] 
+  xl:h-[3px] xl:left-0 xl:w-full xl:bottom-[20%]
+  lg:h-[3px] lg:left-0 lg:w-full lg:bottom-[20%]
+  md:h-[3px] md:left-0 md:w-full md:bottom-[20%]
+  h-[3px] left-0 w-[100%] bottom-[20%]
+  
+  
+  z-20 bg-red-500 bg-opacity-60
+}
+
+.faqSevenLine{
+  @apply absolute 2xl:h-[5px] 2xl:left-0 2xl:w-full  2xl:bottom-[20%] 
+  xl:h-[3px] xl:left-0 xl:w-full xl:bottom-[20%]
+  lg:h-[3px] lg:left-0 lg:w-full lg:bottom-[20%]
+  md:h-[3px] md:left-0 md:w-full md:bottom-[20%]
+  h-[3px] left-0 w-[100%] bottom-[20%]
+  
+  
+  z-20 bg-red-500 bg-opacity-60
+}
+
+.faqEightLine{
+  @apply absolute 2xl:h-[5px] 2xl:left-0 2xl:w-full  2xl:bottom-[20%] 
+  xl:h-[3px] xl:left-0 xl:w-full xl:bottom-[20%]
+  lg:h-[3px] lg:left-0 lg:w-full lg:bottom-[20%]
+  md:h-[3px] md:left-0 md:w-full md:bottom-[20%]
+  h-[3px] left-0 w-[100%] bottom-[20%]
+  
+  
+  z-20 bg-red-500 bg-opacity-60
+}
+
+.faqNineLine{
+  @apply absolute 2xl:h-[5px] 2xl:left-0 2xl:w-full  2xl:bottom-[20%] 
+  xl:h-[3px] xl:left-0 xl:w-full xl:bottom-[20%]
+  lg:h-[3px] lg:left-0 lg:w-full lg:bottom-[20%]
+  md:h-[3px] md:left-0 md:w-full md:bottom-[20%]
+  h-[3px] left-0 w-[100%] bottom-[20%]
+  
+  
+  z-20 bg-red-500 bg-opacity-60
+}
+
+.faqTenLine{
+  @apply absolute 2xl:h-[5px] 2xl:left-0 2xl:w-full  2xl:bottom-[20%] 
+  xl:h-[3px] xl:left-0 xl:w-full xl:bottom-[20%]
+  lg:h-[3px] lg:left-0 lg:w-full lg:bottom-[20%]
+  md:h-[3px] md:left-0 md:w-full md:bottom-[20%]
+  h-[3px] left-0 w-[45%] bottom-[10%]
+  
+  
+  z-20 bg-red-500 bg-opacity-60
+}
+
+.faqElevenLine{
+  @apply absolute 2xl:h-[5px] 2xl:left-0 2xl:w-full  2xl:bottom-[20%] 
+  xl:h-[3px] xl:left-0 xl:w-full xl:bottom-[20%]
+  lg:h-[3px] lg:left-0 lg:w-full lg:bottom-[20%]
+  md:h-[3px] md:left-0 md:w-full md:bottom-[20%]
+  h-[3px] left-0 w-[35%] bottom-[10%]
+  
+  
+  z-20 bg-red-500 bg-opacity-60
+}
+
+.faqTwelveLine{
+  @apply absolute 2xl:h-[5px] 2xl:left-0 2xl:w-full  2xl:bottom-[20%] 
+  xl:h-[3px] xl:left-0 xl:w-full xl:bottom-[20%]
+  lg:h-[3px] lg:left-0 lg:w-full lg:bottom-[20%]
+  md:h-[3px] md:left-0 md:w-full md:bottom-[20%]
+  h-[3px] left-0 w-[15%] bottom-[10%]
+  
+  
+  z-20 bg-red-500 bg-opacity-60
+}
+
+.faqThirtenLine{
+  @apply absolute 2xl:h-[5px] 2xl:left-0 2xl:w-full  2xl:bottom-[20%] 
+  xl:h-[3px] xl:left-0 xl:w-full xl:bottom-[20%]
+  lg:h-[3px] lg:left-0 lg:w-full lg:bottom-[20%]
+  md:h-[3px] md:left-0 md:w-full md:bottom-[20%]
+  h-[3px] left-0 w-[13%] bottom-[8%]
+  
+  
+  z-20 bg-red-500 bg-opacity-60
+}
+.faqFourteenLine{
+  @apply absolute 2xl:h-[5px] 2xl:left-0 2xl:w-full  2xl:bottom-[20%] 
+  xl:h-[3px] xl:left-0 xl:w-full xl:bottom-[20%]
+  lg:h-[3px] lg:left-0 lg:w-full lg:bottom-[20%]
+  md:h-[3px] md:left-0 md:w-full md:bottom-[20%]
+  h-[3px] left-0 w-[65%] bottom-[8%]
+  
+  
+  z-20 bg-red-500 bg-opacity-60
+}
+
   .accordianMainParent {
     @apply 2xl:pb-[15px] xl:pb-[10px] lg:pb-[10px] md:pb-[10px] pb-[10px]
   }
